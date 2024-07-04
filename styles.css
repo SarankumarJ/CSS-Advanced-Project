@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #ffffff;
+}
+header input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.auth-buttons .signup {
+    background-color: #e91e63;
+    border: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.intro a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.intro .learn-more {
+    background-color: #333;
+    color: white;
+}
+
+.intro .sign-up {
+    background-color: #e91e63;
+    color: white;
+}
+
+.shots {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.shot {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+}
+
+.shot img {
+    width: 100%;
+    height: auto;
+}
+
+.shot .info {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.shot .info p {
+    margin: 0;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.shot .info img {
+    width: 20px;
+    height: 20px;
+    padding-left: 50px;
+}
+.shot .info span {
+    font-size: 10px;
+    color: #666;
+    padding-right: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer-links a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+}
+.footer-logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
